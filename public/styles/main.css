@@ -1,0 +1,58 @@
+#app, body, html {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#app {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-self: center;
+	align-items: center;
+	width: 30%;
+	justify-content: center;
+	height: 100%;
+	border-right: 1px solid #eee;
+}
+
+.navigation > ul {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.navigation > ul > li {
+	list-style: none;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.disabled {
+	color: #333;
+}
+
+.content {
+	width: 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.nav-button {
+	width: 150px;
+	display: block;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.nav-button:nth-last-child() {
+	margin-bottom: 0px;
+}
