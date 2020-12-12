@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # gis-front-end
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# GIS
+>>>>>>> 3848c9aa3e1bac391ad71c7a3356a10a3940063a
