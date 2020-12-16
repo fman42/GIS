@@ -8,7 +8,7 @@
 				<button class="nav-button waves-effect waves-light btn" @click="$router.push('/consumers')">Потребители</button>
 			</li>
 			<li>
-				<button class="nav-button waves-effect waves-light btn">Схема</button>
+				<button class="nav-button waves-effect waves-light btn" @click="$router.push('/schema')">Схема</button>
 			</li>
 			<li>
 				<button class="nav-button waves-effect waves-light btn" @click="$router.push('author')">Автор</button>

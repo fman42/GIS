@@ -5,7 +5,7 @@
 				<img src="../assets/profile.jpg" class="author-image">
 			</div>
 			<div class="author-short">
-				<h2>Милан Желнов &#128187;</h2>
+				<h5>Милан Желнов &#128187;</h5>
 				<p>Студент группы П-31 ГПБОУ СРМК</p>
 				<p>Telegram: <a href="https://teleg.run/yel_claw" target="_blank">перейти</a></p>
 			</div>
@@ -20,6 +20,7 @@
 	.author {
 		display: flex;
 		flex-direction: column;
+		margin-top: 6%;
 	}
 
 	.author-summary {

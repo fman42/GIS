@@ -4,6 +4,7 @@ import Index from '../views/Index.vue'
 import Author from '../views/Author.vue'
 import Consumers from '../views/Consumers.vue'
 import ConsumersMap from '../views/ConsumersMap.vue'
+import Schema from '../views/Schema.vue';
 
 const routes = [
     {
@@ -25,6 +26,11 @@ const routes = [
         path: '/consumers/map',
         name: 'ConsumersMap',
         component: ConsumersMap
+    },
+    {
+        path: '/schema',
+        name: 'Schema',
+        component: Schema
     }
 ]
 
