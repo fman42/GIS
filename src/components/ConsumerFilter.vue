@@ -14,16 +14,6 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s4">
-                        <label>Дата</label>
-                        <input type="text" class="datepicker">
-                    </div>
-                    <div class="input-field col s4">
-                        <label>Дата</label>
-                        <input type="text" class="datepicker">
-                    </div>
-                </div>
-                <div class="row">
                     <a class="waves-effect waves-light btn" @click="apply()">Применить</a>
                 </div>
             </div>
@@ -39,9 +29,7 @@
                 visible: false,
                 filter: {
                     id: null,
-                    value: null,
-                    dateFrom: null,
-                    dateTo: null
+                    value: null
                 }
             }
         },

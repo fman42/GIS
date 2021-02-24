@@ -8,10 +8,8 @@
 				<h5>Милан Желнов &#128187;</h5>
 				<p>Студент группы П-31 ГПБОУ СРМК</p>
 				<p>Telegram: <a href="https://teleg.run/yel_claw" target="_blank">перейти</a></p>
+				<p>GitHub: <a href="https://github.com/fman42" target="_blank">перейти</a></p>
 			</div>
-		</div>
-		<div class="author-description">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh nunc, luctus a mauris eget, malesuada sollicitudin ante. Mauris venenatis ex sem, pulvinar gravida justo pulvinar tristique. Duis id eros et elit hendrerit imperdiet non vel ligula. Integer eget varius mi. Maecenas laoreet urna id auctor blandit. Praesent ornare tempus viverra. Quisque at dui arcu. Donec quis nunc congue, finibus leo vel, sodales dolor. Morbi velit augue, rutrum in pretium vel, posuere sit amet tortor.</p>
 		</div>
 	</div>
 </template>

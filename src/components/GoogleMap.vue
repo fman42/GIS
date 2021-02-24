@@ -21,21 +21,31 @@
                 type: Array,
                 defualt: () => [],
                 required: false
+            },
+            mapOptionsProp: {
+                required: false,
+                default: () => null
             }
         },
         data() {
             return {
-                mapOptions: {
-                    center: { lat: 55, lng: 36 },
-                    zoomControl: true,
-                    zoom: 6,
-                    gestureHandling: 'cooperative'
-                },
+                mapOptions: {},
                 map: undefined
             }
         },
         mounted() {
+            this.mapOptions = {
+                center: { lat: 55, lng: 36 },
+                zoomControl: true,
+                zoom: 6,
+                gestureHandling: 'cooperative'
+            };
+            
+            if (this.mapOptionsProp != null)
+                this.mapOptions = this.mapOptionsProp;
+
             this.initMap();
+            this.pushMarkers();
         },
         methods: {
             initMap() {
@@ -46,6 +56,7 @@
             },
 
             pushMarkers() {
+                console.log(this.collection);
                 this.collection.map((item) => {
                     // eslint-disable-next-line no-undef
                     const locations = new google.maps.LatLng(item.lat, item.lng);

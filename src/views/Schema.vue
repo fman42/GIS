@@ -12,11 +12,28 @@
         name: 'Schema',
         data() {
             return {
-                collection: []
+                collection: [{
+                        lat: 45.0408024,
+                        lng: 41.910965
+                    },
+                    {
+                        lat: 45.0579184,
+                        lng: 38.857588,
+                    },
+                    {
+                        lat: 55.5815243,
+                        lng: 36.8250941
+                    },
+                    {
+                        lat: 59.9399138,
+                        lng: 29.5342577
+                    },
+                    {
+                        lat: 56.8119441,
+                        lng: 60.3371974
+                    }
+                ]
             }
-        },
-        mounted() {
-            
         },
         components: {
             GoogleMap

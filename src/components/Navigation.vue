@@ -14,7 +14,7 @@
 				<button class="nav-button waves-effect waves-light btn" @click="$router.push('author')">Автор</button>
 			</li>
 			<li>
-				<p class="copyright disabled">&copy; GIS</p>
+				<p class="copyright disabled">&copy; GIS {{ new Date().getFullYear() }}</p>
 			</li>
 		</ul>
 	</div>

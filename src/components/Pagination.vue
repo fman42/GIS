@@ -21,8 +21,6 @@
 </template>
 
 <script>
-    const MAX_ELEMENTS_IN_PAGE = 3;
-
     export default {
         name: 'Pagination',
         props: {
@@ -30,6 +28,11 @@
                 type: Array,
                 required: true,
                 default: () => []
+            },
+            maxItems: {
+                type: Number,
+                required: false,
+                default: () => 5
             }
         },
         data() {
@@ -41,7 +44,7 @@
         },
         mounted() {
             this.collection = this.items;
-            this.maxPage = Math.ceil(this.collection.length / MAX_ELEMENTS_IN_PAGE);
+            this.maxPage = Math.ceil(this.collection.length / this.maxItems);
         },
         methods: {
             getPaginationClass(eachIndex) {
